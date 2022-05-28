@@ -5,7 +5,7 @@
         $url = 'https://fcm.googleapis.com/fcm/send';
       
         // Put your Server Key here
-        $apiKey = "AAAAtjIU31w:APA91bGmxSWBlMMkiSEL_MglD6no90sOoVD1_CYPSpxQ9bRcC-0ECZWotGuYcP9S26fS1td3-b7fFgpayiYqABWwIUXXBcefdX7GUk9RjRIPG1My7NFWl50B_CLBCmsOPANV0TDZDVFj";
+        $apiKey = "xxxxxxx";
       
         // Compile headers in one variable
         $headers = array (
@@ -33,7 +33,7 @@
           'time_to_live' => 600, // optional - In Seconds
           //'to' => '/topics/mytargettopic'
           //'registration_ids' = ID ARRAY
-          'to' => '/topics/tsdcustomer'
+          'to' => '/topics/xxxxxxx'
         ];
       
         // Initialize curl with the prepared headers and body
